@@ -1,0 +1,77 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                                      Sonar Mechanic |
+//|                                           Developed by Forex Robot Easy Team - forexroboteasy.com |
+//|                                                Terms of Reference |
+//|------------------------------------------------------------------+
+//| 1. Develop code for the Sonar Mechanic Indicator, a high-quality  |
+//|    Forex indicator designed to assist traders in trend analysis   |
+//|    and market predictions.                                        |
+//| 2. Ensure the code incorporates three proprietary algorithms to   |
+//|    accurately determine trend and counter-trend entry points into |
+//|    the market.                                                    |
+//| 3. The code should be capable of working across all assets and     |
+//|    timeframes, with optimal performance on the M15 timeframe. It  |
+//|    should particularly excel on gold and select currency pairs on |
+//|    the M1 and M5 timeframes, enabling scalping and multiple       |
+//|    positive transactions daily.                                   |
+//| 4. The code should prioritize simplicity and user-friendliness,   |
+//|    catering to beginners in Forex Trading. It should provide      |
+//|    clear and concise trading functions to facilitate effective    |
+//|    trading strategies.                                            |
+//| 5. The code should strictly adhere to the technical specification, |
+//|    including all necessary trading functions required to implement|
+//|    the Sonar Mechanic algorithm.                                  |
+//| 6. The terms of reference should not contain any additional text  |
+//|    or requirements beyond the code development task. The document |
+//|    should focus solely on the code requirements and the            |
+//|    development of necessary features.                             |
+//| 7. The size of the terms of reference should not exceed           |
+//|    1500-2000 characters, ensuring a concise and precise           |
+//|    description of the code development task.                      |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                   Sonar Mechanic Indicator                        |
+//|                                                                  |
+//+------------------------------------------------------------------+
+#property copyright 'forexroboteasy.com'
+#property link      'forexroboteasy.com'
+
+//+------------------------------------------------------------------+
+//| Indicator initialization function                                |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Add initialization code here
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Custom indicator iteration function                              |
+//+------------------------------------------------------------------+
+int OnCalculate(const int rates_total,
+                const int prev_calculated,
+                const datetime& time[],
+                const double& open[],
+                const double& high[],
+                const double& low[],
+                const double& close[],
+                const long& tick_volume[],
+                const long& volume[],
+                const int& spread[])
+{
+    // Add calculation code here
+
+    // Return the number of calculated bars
+    return(rates_total);
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                       Sonar Mechanic Code                         |
+//|                                                                  |
+//+------------------------------------------------------------------+
+// Add your code here
+
